@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",//编译为es5
+        "module": "commonjs",//编码规范为commonjs
+        //编译时，保留装饰器的元数据
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "build",//js文件放在build目录里
+        "lib": [
+            "es6" //开发用es6的语法
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
